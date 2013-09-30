@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'mistral';
+	src: url('../fonts/mistral.eot');
+	src: url('../fonts/mistral.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/mistral.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.header-banner {
+	position: relative;
+	width:1200px;
+	margin:0 auto 0 auto;
+	padding:5px;
+}
+
+
+
+body {
+	background: url("../images/p5.png");
+	background-repeat: repeat;
+}
+
+.infusion-styling {
+	font-family: 'mistral';
+	color: lime;
+	font-size: x-large;
+}
+
+.gingerbeer-styling {
+	font-family: 'mistral';
+	color: red;
+	font-size: x-large;
+}
+
+.container {
+	margin-top: 30px;
+	margin-bottom: 150px;
+	background-color: white;
+	-moz-border-radius: 1em 4em 1em 4em;
+	border-radius: 1em 4em 1em 4em;
+	padding-left: 30px;
+	padding-right: 30px;
+	-moz-box-shadow: 0 0 30px 5px #999;
+	-webkit-box-shadow: 0 0 30px 5px #999;
+}
+
+.footer {
+	height: 100px;
+	-moz-border-radius: 0em 0em 1em 4em;
+	border-radius: 0em 0em 1em 4em;
+	background-color: #99D853;
+	margin-top: 50px;
+	margin-left: -30px;
+	margin-right: -30px;
+}
+
+#header {
+	margin-left: -30px;
+	margin-right: -30px;
+}
